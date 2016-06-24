@@ -20,9 +20,13 @@
 		301F99A71D0D67DB0044EBEC /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 301F999F1D0D67DB0044EBEC /* AFURLRequestSerialization.m */; };
 		301F99A81D0D67DB0044EBEC /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 301F99A11D0D67DB0044EBEC /* AFURLResponseSerialization.m */; };
 		301F99A91D0D67DB0044EBEC /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 301F99A31D0D67DB0044EBEC /* AFURLSessionManager.m */; };
+		309B17A61D1BE1650074065E /* LeApiRquest.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B17A51D1BE1650074065E /* LeApiRquest.m */; };
+		309B17A71D1BE1650074065E /* LeApiRquest.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B17A51D1BE1650074065E /* LeApiRquest.m */; };
+		309B17AA1D1BE1980074065E /* GigApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B17A91D1BE1980074065E /* GigApiRequest.m */; };
+		309B17AB1D1BE1980074065E /* GigApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B17A91D1BE1980074065E /* GigApiRequest.m */; };
+		309B17B21D1D03F30074065E /* DataCacheService.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B17B11D1D03F30074065E /* DataCacheService.m */; };
+		309B17B31D1D03F30074065E /* DataCacheService.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B17B11D1D03F30074065E /* DataCacheService.m */; };
 		30BF1BB01D11392D00975DA0 /* ApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BF1BAF1D11392D00975DA0 /* ApiRequest.m */; };
-		30BF1BB31D113B6800975DA0 /* LeRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BF1BB21D113B6800975DA0 /* LeRequestManager.m */; };
-		30BF1BB41D113B6800975DA0 /* LeRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BF1BB21D113B6800975DA0 /* LeRequestManager.m */; };
 		30BF1BB51D113B7200975DA0 /* ApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BF1BAF1D11392D00975DA0 /* ApiRequest.m */; };
 		30BF1BB81D113D5E00975DA0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BF1BB71D113D5E00975DA0 /* FirstViewController.m */; };
 		30BF1BB91D113D5E00975DA0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BF1BB71D113D5E00975DA0 /* FirstViewController.m */; };
@@ -75,10 +79,14 @@
 		301F99A11D0D67DB0044EBEC /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		301F99A21D0D67DB0044EBEC /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		301F99A31D0D67DB0044EBEC /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		309B17A41D1BE1650074065E /* LeApiRquest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeApiRquest.h; sourceTree = "<group>"; };
+		309B17A51D1BE1650074065E /* LeApiRquest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeApiRquest.m; sourceTree = "<group>"; };
+		309B17A81D1BE1980074065E /* GigApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GigApiRequest.h; sourceTree = "<group>"; };
+		309B17A91D1BE1980074065E /* GigApiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GigApiRequest.m; sourceTree = "<group>"; };
+		309B17B01D1D03F30074065E /* DataCacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCacheService.h; sourceTree = "<group>"; };
+		309B17B11D1D03F30074065E /* DataCacheService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCacheService.m; sourceTree = "<group>"; };
 		30BF1BAE1D11392D00975DA0 /* ApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiRequest.h; sourceTree = "<group>"; };
 		30BF1BAF1D11392D00975DA0 /* ApiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiRequest.m; sourceTree = "<group>"; };
-		30BF1BB11D113B6800975DA0 /* LeRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeRequestManager.h; sourceTree = "<group>"; };
-		30BF1BB21D113B6800975DA0 /* LeRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeRequestManager.m; sourceTree = "<group>"; };
 		30BF1BB61D113D5E00975DA0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		30BF1BB71D113D5E00975DA0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		30F2BD4D1D129F9400860647 /* LeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeResponse.h; sourceTree = "<group>"; };
@@ -180,10 +188,14 @@
 			children = (
 				30BF1BAE1D11392D00975DA0 /* ApiRequest.h */,
 				30BF1BAF1D11392D00975DA0 /* ApiRequest.m */,
-				30BF1BB11D113B6800975DA0 /* LeRequestManager.h */,
-				30BF1BB21D113B6800975DA0 /* LeRequestManager.m */,
+				309B17A41D1BE1650074065E /* LeApiRquest.h */,
+				309B17A51D1BE1650074065E /* LeApiRquest.m */,
+				309B17A81D1BE1980074065E /* GigApiRequest.h */,
+				309B17A91D1BE1980074065E /* GigApiRequest.m */,
 				30F2BD4D1D129F9400860647 /* LeResponse.h */,
 				30F2BD4E1D129F9400860647 /* LeResponse.m */,
+				309B17B01D1D03F30074065E /* DataCacheService.h */,
+				309B17B11D1D03F30074065E /* DataCacheService.m */,
 			);
 			path = ApiService;
 			sourceTree = "<group>";
@@ -339,16 +351,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				301F99A91D0D67DB0044EBEC /* AFURLSessionManager.m in Sources */,
+				309B17AA1D1BE1980074065E /* GigApiRequest.m in Sources */,
 				301F996A1D0D64480044EBEC /* ViewController.m in Sources */,
 				301F99671D0D64480044EBEC /* AppDelegate.m in Sources */,
 				30BF1BB01D11392D00975DA0 /* ApiRequest.m in Sources */,
 				301F99A51D0D67DB0044EBEC /* AFNetworkReachabilityManager.m in Sources */,
-				30BF1BB31D113B6800975DA0 /* LeRequestManager.m in Sources */,
 				301F99641D0D64480044EBEC /* main.m in Sources */,
 				30BF1BB81D113D5E00975DA0 /* FirstViewController.m in Sources */,
 				301F99A61D0D67DB0044EBEC /* AFSecurityPolicy.m in Sources */,
 				301F99A71D0D67DB0044EBEC /* AFURLRequestSerialization.m in Sources */,
 				30F2BD4F1D129F9400860647 /* LeResponse.m in Sources */,
+				309B17B21D1D03F30074065E /* DataCacheService.m in Sources */,
+				309B17A61D1BE1650074065E /* LeApiRquest.m in Sources */,
 				301F99A81D0D67DB0044EBEC /* AFURLResponseSerialization.m in Sources */,
 				301F99A41D0D67DB0044EBEC /* AFHTTPSessionManager.m in Sources */,
 			);
@@ -358,10 +372,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BF1BB41D113B6800975DA0 /* LeRequestManager.m in Sources */,
 				30BF1BB51D113B7200975DA0 /* ApiRequest.m in Sources */,
 				301F997D1D0D64480044EBEC /* ApiRequestDemoTests.m in Sources */,
 				30BF1BB91D113D5E00975DA0 /* FirstViewController.m in Sources */,
+				309B17AB1D1BE1980074065E /* GigApiRequest.m in Sources */,
+				309B17A71D1BE1650074065E /* LeApiRquest.m in Sources */,
+				309B17B31D1D03F30074065E /* DataCacheService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

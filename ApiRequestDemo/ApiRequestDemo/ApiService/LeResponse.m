@@ -9,5 +9,17 @@
 #import "LeResponse.h"
 
 @implementation LeResponse
++ (instancetype)responseWithObject:(id)responseObject {
+	LeResponse *response = [[LeResponse alloc] initWithObject:responseObject];
+	return response;
+}
 
+- (instancetype)initWithObject:(id)responseObject {
+	self = [super init];
+	if (self) {
+		self.responseObject = responseObject;
+	}
+	
+	return self;
+}
 @end
